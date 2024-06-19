@@ -11,7 +11,7 @@
 - `sign_language_converter.py`: 텍스트를 수어로 변환하는 스크립트
 - `data_collection2.py`: 손 동작 데이터를 수집하는 스크립트
 - `test.py`: 손 동작 인식 및 예측을 수행하는 스크립트
-- `test2.py`: 손 동작 인식 및 예측을 수행하는 스크립트 (두 손, 수정필요)
+- `test2.py`: 손 동작 인식 및 예측을 수행하는 스크립트 (두 손, 프레임속도 조절 및 [0] 추가해서 수정완료)
 - `test2_2.py`: 손 동작 인식 및 예측을 수행하는 스크립트 (프레임속도 조절-수정완료)
 - `train.ipynb`: 모델 학습을 위한 Jupyter Notebook 파일
 - `train2.ipynb`: 모델 학습을 위한 Jupyter Notebook 파일 (두 손)
