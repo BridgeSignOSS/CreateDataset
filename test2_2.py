@@ -8,7 +8,7 @@ actions = ['hospital', 'doctor', 'medicine']
 seq_length = 30
 
 # 모델 파일 확장자를 .keras로 변경
-model = load_model('model2.keras')
+model = load_model('models/model2.keras')
 
 # MediaPipe hands model
 mp_hands = mp.solutions.hands

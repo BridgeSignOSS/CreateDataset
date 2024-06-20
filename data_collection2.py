@@ -32,7 +32,7 @@ while cap.isOpened():
 
         img = cv2.flip(img, 1)
         cv2.putText(img, f'Waiting for collecting {action.upper()} action...', (10, 30), 
-                    cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
+                    cv2.FONT_HERSHEY_SIMPLEX, 1, (230, 216, 173), 2)
         cv2.imshow('img', img)
         cv2.waitKey(3000)
 
